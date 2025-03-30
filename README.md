@@ -62,12 +62,12 @@ To prevent it from happening, this extension will do the following:
 it will **ask you** if you really want to open this link, therefore making you aware that someone might be trying to track you,
 and also providing a possibility to prevent this (by not opening the link).
 
-2. If it recieved a link with a signature (e.g. `ext+container:name=Personal&url=https://good.com/&signature=2f7154ebeb22dd3136213aef6e385eabf63aa2d42cabc5d61beff9d52c4c5daa`).
+2. If it received a link with a signature (e.g. `ext+container:name=Personal&url=https://good.com/&signature=2f7154ebeb22dd3136213aef6e385eabf63aa2d42cabc5d61beff9d52c4c5daa`).
 it will check that this URL is signed by a key that is known **only to you and your local copy of this extension**.
 therefore guaranteeing that this request is legit, sanctioned by you and can be opened automatically.
 
 It is obvious that this extra step creates certain friction when using the extension, so that's why a couple of features
-to mitigate the inconvenince have been added:
+to mitigate the inconvenience have been added:
 
 1. The extension now comes with a small popup that would provide you with an easy way to create secure links or terminal commands for any page you need to be opened in any container.
 
@@ -151,6 +151,6 @@ $ yarn build
 
 [Mozilla Public License Version 2.0](LICENSE)
 
-## Contibutions
+## Contributions
 
-Contibutions are very welcome. There's no specific process right now, just open your PRs/issues in this repo.
+Contributions are very welcome. There's no specific process right now, just open your PRs/issues in this repo.
